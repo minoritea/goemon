@@ -21,4 +21,5 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
+	fmt.Println(cmd.Process.Pid)
 }
